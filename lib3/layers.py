@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Layer_Dense:
     def __init__(self, n_inputs, n_neurons):
         # Initialize weights with small random values
