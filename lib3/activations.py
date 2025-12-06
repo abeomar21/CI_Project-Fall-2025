@@ -1,6 +1,5 @@
 import numpy as np
 
-# Base class (optional)
 class Activation:
     pass
 
@@ -39,3 +38,4 @@ class Activation_ReLU(Activation):
         self.dinputs = dvalues.copy()
         self.dinputs[self.inputs <= 0] = 0
         return self.dinputs
+
